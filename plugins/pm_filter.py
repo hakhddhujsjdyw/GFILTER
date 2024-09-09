@@ -315,7 +315,7 @@ async def global_filters(client, message, text=False):
                                 reply_markup=InlineKeyboardMarkup(button),
                                 reply_to_message_id=reply_id
                             )
-                            await asyncio.sleep(200)
+                            await asyncio.sleep()
                             await hmm.delete()
 
                     elif btn == "[]":
