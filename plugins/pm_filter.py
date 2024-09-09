@@ -325,7 +325,7 @@ async def global_filters(client, message, text=False):
                             caption=reply_text or "",
                             reply_to_message_id=reply_id
                         )
-                        await asyncio.sleep(200)
+                        await asyncio.sleep()
                         await oto.delete()
 
                     else:
@@ -336,7 +336,7 @@ async def global_filters(client, message, text=False):
                             reply_markup=InlineKeyboardMarkup(button),
                             reply_to_message_id=reply_id
                         )
-                        await asyncio.sleep(200)
+                        await asyncio.sleep()
                         await dlt.delete()
 
                 except Exception as e:
