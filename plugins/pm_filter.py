@@ -302,8 +302,7 @@ async def global_filters(client, message, text=False):
                                 reply_text, 
                                 disable_web_page_preview=True,
                                 reply_to_message_id=reply_id
-                            )
-                            await asyncio.sleep(200)
+                            )                         
                             await joelkb.delete()
                             
                         else:
@@ -314,8 +313,7 @@ async def global_filters(client, message, text=False):
                                 disable_web_page_preview=True,
                                 reply_markup=InlineKeyboardMarkup(button),
                                 reply_to_message_id=reply_id
-                            )
-                            await asyncio.sleep()
+                            )                         
                             await hmm.delete()
 
                     elif btn == "[]":
@@ -324,8 +322,7 @@ async def global_filters(client, message, text=False):
                             fileid,
                             caption=reply_text or "",
                             reply_to_message_id=reply_id
-                        )
-                        await asyncio.sleep()
+                        )                        
                         await oto.delete()
 
                     else:
@@ -335,8 +332,7 @@ async def global_filters(client, message, text=False):
                             caption=reply_text or "",
                             reply_markup=InlineKeyboardMarkup(button),
                             reply_to_message_id=reply_id
-                        )
-                        await asyncio.sleep()
+                        )                        
                         await dlt.delete()
 
                 except Exception as e:
