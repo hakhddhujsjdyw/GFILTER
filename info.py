@@ -49,7 +49,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/659b1025e96ade7ad61ae.jpg https://telegra.ph/file/f02d65f1a910fc2a60ce1.jpg https://telegra.ph/file/249ddb8aa8c323a6c4a40.jpg https://telegra.ph/file/e3eb6f1fbcb297b59b4e2.jpg https://telegra.ph/file/d234ee1d90a2527d517df.jpg https://telegra.ph/file/f6bb9d3c14852e63737e5.jpg https://telegra.ph/file/be5b4aa91c7948ceb1601.jpg https://telegra.ph/file/1b8c229c6d085f3f09d53.jpg https://telegra.ph/file/8bdc8132cddaf8b49ad3e.jpg https://telegra.ph/file/b3f085dad94c503043375.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/39b86f6dc3e12c8976f2b.jpg https://telegra.ph/file/ba3a4e5685ffce4ee9fa2.jpg https://telegra.ph/file/2cad110c8592f881e347d.jpg https://telegra.ph/file/dac6509fb6689e5d8fb75.jpg https://telegra.ph/file/e748da46b2027988f8b01.jpg https://telegra.ph/file/62341d24b79470358f6bd.jpg https://telegra.ph/file/4780d98d162cbad0b49d8.jpg https://telegra.ph/file/8492c75920649eec4c204.jpg https://telegra.ph/file/8492c75920649eec4c204.jpg https://telegra.ph/file/64bc779495cecfe6c707d.jpg')).split()
 NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/f699931c9eb259f551dfe.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/89b856e886483f9019094.jpg")
 
